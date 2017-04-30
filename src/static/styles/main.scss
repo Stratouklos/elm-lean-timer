@@ -3,3 +3,61 @@ $icon-font-path: '~bootstrap-sass/assets/fonts/bootstrap/';
 @import '~bootstrap-sass/assets/stylesheets/_bootstrap.scss';
 
 // can add Boostrap overrides, additional Sass/CSS below...
+.projector {
+    background-color: #623027;
+    color: white !important;
+}
+
+.desktop {
+    background-color: #fffafa;
+}
+
+.timer-page {
+    max-width: 50em;
+    text-align: center;
+}
+
+.header {
+    font-weight: 400;
+}
+
+.coffee-image {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 50%;
+    height: auto;
+}
+
+.logo {
+    font-size: 5em;
+    font-weight: 800;
+    color: #623027;
+    font-family: 'Boogaloo', cursive;
+}
+
+.timer {
+    font-size: 10em;
+
+}
+
+.buttons {
+    margin-top: 3em;
+}
+
+.settings-buttons {
+    margin-top: 1em;
+
+}
+
+.lean-btn {
+    margin: 0.20em 0.20em 0.20em 0.20em;
+}
+
+.settings-btn {
+    color: black !important;
+}
+
+.vertical-line {
+    background-color: #623027;
+    height: 0.33em;
+}
