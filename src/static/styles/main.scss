@@ -71,7 +71,9 @@ $icon-font-path: '~bootstrap-sass/assets/fonts/bootstrap/';
 }
 
 .settings-btn {
-    color: black !important;
+  @extend .lean-btn;
+  @extend .btn-sm;
+  color: black !important;
 }
 
 .vertical-line {

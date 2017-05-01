@@ -42,9 +42,7 @@ view model =
     hr [class "row vertical-line"][],
     controlls Voting,
     div [class "settings-buttons row"] [
-      button [class "btn btn-secondary btn-sm lean-btn settings-btn ng-pristine ng-untouched ng-valid ng-binding ng-empty"][
-        text "Projector Mode"
-      ],
-        button [class "btn btn-secondary btn-sm lean-btn settings-btn ng-binding"][text "Sounds On"]
+      button [class "settings-btn"][ text "Projector Mode"],
+      button [class "settings-btn"][text "Sounds On"]
     ]
   ]
