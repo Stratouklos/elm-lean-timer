@@ -50,7 +50,24 @@ $icon-font-path: '~bootstrap-sass/assets/fonts/bootstrap/';
 }
 
 .lean-btn {
-    margin: 0.20em 0.20em 0.20em 0.20em;
+  @extend .btn;
+  @extend .btn-lg;
+  margin: 0.20em 0.20em 0.20em 0.20em;
+}
+
+.lean-btn-blue {
+  @extend .lean-btn;
+  @extend .btn-primary
+}
+
+.lean-btn-yellow {
+  @extend .lean-btn;
+  @extend .btn-warning
+}
+
+.lean-btn-green {
+  @extend .lean-btn;
+  @extend .btn-success
 }
 
 .settings-btn {
