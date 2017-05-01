@@ -17,9 +17,11 @@ startNewTopicBtn = button [class "lean-btn-blue "][text "Start on a new topic"]
 timeToWrapUpBtn  = button [class "lean-btn-yellow"][text "Hmm, just a bit more..."]
 moreTimeBtn      = button [class "lean-btn-green"][text "Yes, this is fascinating!"]
 
+buttonsDiv = div [class "buttons row"]
+
 controlls : Phase -> Html div
 controlls phase =
   case phase of
-    Starting    -> div [class "buttons row"] [ startNewTopicBtn ]
-    Voting      -> div [class "buttons row"] [ startNewTopicBtn, moreTimeBtn, timeToWrapUpBtn]
-    Discussing  -> div [class "buttons row"] [ startNewTopicBtn ]
+    Starting    -> buttonsDiv [ startNewTopicBtn ]
+    Voting      -> buttonsDiv [ startNewTopicBtn, moreTimeBtn, timeToWrapUpBtn]
+    Discussing  -> buttonsDiv [ startNewTopicBtn ]
