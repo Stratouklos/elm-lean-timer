@@ -3,7 +3,7 @@ import Html exposing (..)
 import Html.Attributes exposing (..)
 import Html.Events exposing ( onClick )
 -- component import example
-import Components.Timer exposing (..)
+import Components.Meeting exposing (..)
 
 -- APP
 main : Program Never Int Msg
