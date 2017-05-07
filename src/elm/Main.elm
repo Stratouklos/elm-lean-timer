@@ -28,7 +28,9 @@ update msg model =
     Increment -> model + 1
 
 -- VIEW
+coffeeIcon : Html msg
 coffeeIcon = i [class "fa fa-coffee"][]
+logo : Html msg
 logo = div [ class "logo" ][text "Lean ", coffeeIcon, text " Timer"]
 
 view : Model -> Html Msg
